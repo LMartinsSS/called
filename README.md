@@ -10,8 +10,10 @@ Complete variables in the .env.default and rename file to .env
 
 Run `npm run start` for a dev server.
 
-## Test
+## Test list
 
 Navigate to `http://localhost:4000/queue/list`to get queue list
+
+## Test last message
 Navigate to `http://localhost:4000/queue/message`to get last message
 
