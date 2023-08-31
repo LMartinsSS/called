@@ -1,10 +1,5 @@
 const dotenv = require("dotenv");
 const app = require("./server");
-const Queue = require("./aws/sqs");
-
-const queue = new Queue();
-// queue.listQueue()
-queue.receiveMessage()
 
 dotenv.config();
 const porta = process.env.PORT
