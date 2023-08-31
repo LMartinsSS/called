@@ -1,0 +1,22 @@
+{
+  "name": "called",
+  "version": "1.0.0",
+  "description": "calleds queues",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon src/index.js"
+  },
+  "author": "luis henrique",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-sqs": "^3.398.0",
+    "aws-sdk": "^2.1449.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
